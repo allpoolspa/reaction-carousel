@@ -1,0 +1,21 @@
+<template name="featuredCarousel">
+
+ <div class="owl-carousel">
+
+ </div>
+
+</template>
+
+<template name="featured-items">
+  <div id="accordion" role="tablist" aria-multiselectable="true" class="panel-group" style="margin-bottom: 1cm; width: 33%; margin-left:  auto; margin-right: auto;">
+  <div class="panel panel-default">
+     <div id="headingOne" role="tab" class="panel-heading">
+    <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">{{title}}</a>
+    </h4>
+     </div>
+     <div id="collapseOne" role="tabpanel" aria-labelledby="headingOne"  class="panel-collapse collapse">
+        <div class="panel-body">{{description}}</div>
+     </div>
+    </div>
+  </div>
+</template>
